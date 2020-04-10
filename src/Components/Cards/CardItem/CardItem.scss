@@ -1,0 +1,33 @@
+.CardItem {
+  .card {
+    //border: 1px solid #FF3B3B;
+    margin: 10px;
+    .count-btn {
+      border-radius: 100px;
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      margin: 10px 10px 10px 0;
+    }
+    .btn-warning {
+      background-color: transparent;
+      border: 1px solid #4C4C4C;
+      color: #4C4C4C;
+      transition-duration: .3s;
+      &:hover {
+        background-color: #ced4da;
+      }
+      &:focus {
+        box-shadow: 0 0 0 0.2rem rgba(206, 212, 218, 1);
+      }
+    }
+    .btn-danger {
+      background-color: #ff3b3b;
+      border: 1px solid #4C4C4C;
+      transition-duration: .3s;
+      &:hover {
+        background-color: #f64020;
+      }
+    }
+  }
+}

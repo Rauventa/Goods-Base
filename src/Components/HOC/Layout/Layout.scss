@@ -1,0 +1,27 @@
+.Layout {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  background-color: #F2F3F8;
+  .navbar {
+    background-color: #FFFFFF !important;
+    border-bottom: 1px solid #4C4C4C;
+    a {
+      color: #4C4C4C !important;
+      transition-duration: .3s;
+      &:hover {
+        color: grey !important;
+      }
+    }
+  }
+  .btn-primary {
+    background-color: #00CB7F;
+    border: 1px solid #6B6B73;
+    &:hover, &:active {
+      background-color: #09B484 !important;
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(0, 203, 127, .5)
+    }
+  }
+}
